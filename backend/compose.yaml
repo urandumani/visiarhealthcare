@@ -1,0 +1,7 @@
+﻿services:
+  visiarhealthcare:
+    image: visiarhealthcare
+    build:
+      context: .
+      dockerfile: VisiarHealthcare/Dockerfile
+
